@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <style>
+        body {
+            background-color: #bfe3dd;
+            color: #000;
+        }
+
+        a {
+            color: #2983ff;
+        }
+    </style>
+     <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+     <script type="importmap">
+         {
+           "imports": {
+             "three": "https://unpkg.com/three@0.153.0/build/three.module.js",
+             "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+           }
+         }
+     </script>
+</head>
+
+<body>
+
+    <div id="container"></div>
+
+    <div id="info">
+        <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> webgl - animation - keyframes<br />
+        Model: <a href="https://artstation.com/artwork/1AGwX" target="_blank" rel="noopener">Littlest Tokyo</a> by
+        <a href="https://artstation.com/glenatron" target="_blank" rel="noopener">Glen Fox</a>, CC Attribution.
+    </div>
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+   
+
+
+    <script type="module" src="js/scene.js" defer></script>
+    <script type="module" src="js/setup.js" defer></script>
+    <script type="module" src="js/animate.js" defer></script>
+
+</body>
+
+</html>
+<!-- model links
+    https://sketchfab.com/3d-models/pine-tree-fbd656918d5e4126b82c7b41432aff5f
+    https://sketchfab.com/3d-models/low-poly-billboard-city-prop-adec2156111347cf9147c5c2043380b0#download
+    
