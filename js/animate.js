@@ -94,7 +94,7 @@ function clickEvent() {
 
     // calculate objects intersecting the picking ray
     const intersects = raycaster.intersectObjects(portfolio.scene.children);
-
+    
     for (let i = 0; i < intersects.length; i++) {
         if (intersects[i].object.name == "ray" && portfolio.mouseDown) {
             pause = false;
